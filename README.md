@@ -1,7 +1,7 @@
 #Fifteen Puzzle Game 🎲
 
 
-Una versión interactiva y moderna del clásico juego Fifteen Puzzle. Organiza las fichas numeradas del 1 al 15 en un tablero de elegido por el usuario deslizando las fichas hacia el espacio vacío. Este proyecto combina lógica y diseño para ofrecer una experiencia de juego fluida y entretenida.
+Una versión interactiva y moderna del clásico juego Fifteen Puzzle. Organiza las fichas en un tablero elegido por el usuario deslizando las fichas hacia el espacio vacío. Este proyecto combina lógica y diseño para ofrecer una experiencia de juego fluida y entretenida.
 
 📜 Descripción
 El juego Fifteen Puzzle es un rompecabezas deslizante que desafía tu habilidad para organizar fichas en el menor número de movimientos posible. Ideal para practicar habilidades lógicas y estratégicas. Esta implementación está completamente desarrollada para la web y es accesible desde cualquier navegador.
