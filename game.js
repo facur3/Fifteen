@@ -195,8 +195,8 @@ document.addEventListener('keydown', (e) => {
     switch(e.key.toLowerCase()) {
         case 'w': moveUp(); break;
         case 's': moveDown(); break;
-        case 'd': moveLeft(); break;
-        case 'a': moveRight(); break;
+        case 'a': moveLeft(); break;
+        case 'd': moveRight(); break;
         default: return;
     }
 
