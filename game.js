@@ -174,6 +174,21 @@ function resetGame() {
     startGame();
 }
 
+function handleMove(direction) {
+    if (!gameStarted) return;
+
+    switch(direction) {
+        case 'w': moveUp(); break;
+        case 's': moveDown(); break;
+        case 'a': moveLeft(); break;
+        case 'd': moveRight(); break;
+        default: return;
+    }
+
+    updateBoard();
+    event.preventDefault();
+}
+
 document.addEventListener('keydown', (e) => {
     if (!gameStarted) return;
 
