@@ -33,7 +33,7 @@ function findEmpty() {
     }
 }
 
-function moveRight() {
+function moveLeft() {
     let [row, col] = findEmpty();
     if (col > 0) {
         [board[row][col], board[row][col - 1]] = [board[row][col - 1], board[row][col]];
@@ -44,7 +44,7 @@ function moveRight() {
     return true;
 }
 
-function moveLeft() {
+function moveRight() {
     let [row, col] = findEmpty();
     if (col < board[0].length - 1) {
         [board[row][col], board[row][col + 1]] = [board[row][col + 1], board[row][col]];
