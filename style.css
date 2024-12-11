@@ -203,6 +203,14 @@ button:hover {
     box-shadow: var(--neon-glow);
 }
 
+.start{
+    margin-top: 28px;
+}
+
+.reset{
+    margin-top: 28px;
+}
+
 @media (max-width: 768px) {
     .desktop-controls {
         display: none;
